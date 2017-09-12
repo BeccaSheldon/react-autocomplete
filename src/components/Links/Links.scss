@@ -1,0 +1,13 @@
+@import './src/_colors';
+@import './src/_animations';
+
+a {
+	color: $white;
+	cursor: pointer;
+	text-decoration: none;
+
+	&:hover {
+		color: $secondary;
+		animation: pulse 1s linear infinite;
+	}
+}

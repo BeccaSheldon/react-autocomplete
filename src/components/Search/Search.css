@@ -1,0 +1,23 @@
+.Search {
+  text-align: center; }
+  .Search .Search-input {
+    border: 1px solid #006984;
+    border-radius: 2rem;
+    color: #73D5FF;
+    font-size: 16px;
+    height: 3rem;
+    padding: 0 2rem;
+    width: 50%; }
+    .Search .Search-input:focus {
+      outline: none; }
+  .Search .Search-button {
+    background-color: #FFFFFF;
+    border: none;
+    color: #73D5FF;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: -2rem;
+    padding: 0; }
+    .Search .Search-button i:hover {
+      color: #00CC99;
+      animation: spin 1s linear 1; }

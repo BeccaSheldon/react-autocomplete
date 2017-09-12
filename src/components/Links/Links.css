@@ -1,0 +1,17 @@
+@keyframes pulse {
+  25% {
+    color: #006984; }
+  75% {
+    color: #00CC99; } }
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg); } }
+
+a {
+  color: #FFFFFF;
+  cursor: pointer;
+  text-decoration: none; }
+  a:hover {
+    color: #00CC99;
+    animation: pulse 1s linear infinite; }

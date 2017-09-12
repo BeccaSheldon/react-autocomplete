@@ -1,0 +1,13 @@
+.Navigation .Navigation-items {
+  display: flex;
+  flex-flow: row nowrap;
+  font-family: 'Quicksand';
+  justify-content: space-around;
+  padding: 1.25rem 0.5rem; }
+  .Navigation .Navigation-items ul li {
+    display: inline-block;
+    padding: 0 1rem; }
+  .Navigation .Navigation-items a {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }

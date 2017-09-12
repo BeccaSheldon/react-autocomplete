@@ -1,0 +1,34 @@
+@import './src/_colors';
+
+.Search {
+	text-align: center;
+
+	.Search-input {
+		border: 1px solid $primary;
+		border-radius: 2rem;
+		color: $tertiary;
+		font-size: 16px;
+		height: 3rem;
+		padding: 0 2rem;
+		width: 50%;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	.Search-button {
+		background-color: $white;
+		border: none;
+		color: $tertiary;
+		cursor: pointer;
+		font-size: 1.2rem;
+		margin-left: -2rem;
+		padding: 0;
+
+		i:hover {
+			color: $secondary;
+			animation: spin 1s linear 1;
+		}
+	}
+}

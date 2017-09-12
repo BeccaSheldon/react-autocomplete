@@ -1,0 +1,39 @@
+@import './_colors';
+@import './_animations';
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+	font-family: 'Lato', sans-serif;
+	height: 100%;
+	padding: 0 2%;
+}
+
+body {
+	background-color: $dark;
+	display: flex;
+	flex-direction: column;
+}
+
+h1, h2, h3, h4, p, ol li {
+	color: $white;
+	font-weight: 300;
+  text-align: center;
+}
+
+ul {
+	padding: 0;
+
+	li {
+		list-style: none;
+	}
+}
+
+.App {
+	.Wrapper {
+		flex: 1 0 auto;
+		height: 100vh;
+	}
+}

@@ -1,0 +1,13 @@
+.Footer-items {
+  display: flex;
+  flex-flow: row nowrap;
+  font-family: 'Quicksand';
+  justify-content: space-between;
+  padding: 1.25rem 0.5rem; }
+  .Footer-items ul li {
+    display: inline-block;
+    padding: 0 1rem; }
+  .Footer-items a {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
