@@ -27,6 +27,11 @@ This is a little bootstrapped from create-react-app and made for a frontend inte
 - All matches to the search query.
 - If there are no matches, a 'No Results' message is displayed.
 
+## Running Locally:
+1. `git clone https://github.com/BeccaSheldon/react-autocomplete.git`
+2. `cd react-autocomplete`
+3. `yarn start`
+
 ## Screenshots:
 
 #
