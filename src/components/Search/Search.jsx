@@ -11,7 +11,7 @@ export default class Search extends Component {
 			  <Input
 			  	changeHandler={this.props.changeHandler}
 			  	className="Search-input"
-			  	placeholder="Type in an item name, like 'Cheetos'"
+			  	placeholder="Try 'Apples' or 'Candy'"
 			  	type="text"
 			  />
 			  <Button
