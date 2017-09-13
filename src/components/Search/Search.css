@@ -1,9 +1,9 @@
 .Search {
   text-align: center; }
   .Search .Search-input {
-    border: 1px solid #006984;
+    border: 1px solid #00EDBC;
     border-radius: 2rem;
-    color: #73D5FF;
+    color: #392392;
     font-size: 16px;
     height: 3rem;
     padding: 0 2rem;
@@ -13,11 +13,11 @@
   .Search .Search-button {
     background-color: #FFFFFF;
     border: none;
-    color: #73D5FF;
+    color: #392392;
     cursor: pointer;
     font-size: 1.2rem;
     margin-left: -2rem;
     padding: 0; }
     .Search .Search-button i:hover {
-      color: #00CC99;
+      color: #D5D8FF;
       animation: spin 1s linear 1; }

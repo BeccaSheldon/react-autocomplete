@@ -10,17 +10,24 @@ export default class NavFooter extends Component {
 				<ul className="Footer-items">
 					<li>
 						<Link
-							target="_blank"
-							text="LinkedIn"
-							url="http://linkedin.com/rebeccasheldon"
-						/>
+							className="pulse"
+							text="Email"
+							url="mailto:rebecca.e.sheldon@gmail.com"
+						></Link>
 					</li>
 					<li>
 						<Link
 							target="_blank"
-							text="Website"
-							url="http://cremedelacode.com"
+							text="Github"
+							url="http://github.com/beccasheldon"
 						/>
+					</li>
+					<li>
+						<Link
+								target="_blank"
+								text="LinkedIn"
+								url="http://linkedin.com/rebeccasheldon"
+							/>
 					</li>
 					<li>
 						<Link
@@ -32,16 +39,9 @@ export default class NavFooter extends Component {
 					<li>
 						<Link
 							target="_blank"
-							text="Github"
-							url="http://github.com/beccasheldon"
+							text="Website"
+							url="http://cremedelacode.com"
 						/>
-					</li>
-					<li>
-						<Link
-							className="pulse"
-							text="Email"
-							url="mailto:rebecca.e.sheldon@gmail.com"
-						></Link>
 					</li>
 				</ul>
 			</Row>

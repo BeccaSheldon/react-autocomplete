@@ -1,0 +1,33 @@
+@import './src/_colors';
+
+.Results {
+	text-align: center;
+
+	.Result-list {
+		background-color: $white;
+		border-radius: 1rem;
+		display: flex;
+	  flex-flow: column nowrap;
+	  font-family: 'Quicksand';
+
+		.Result-list-items {
+			color: $tertiary;
+			cursor: pointer;
+			padding: 0.5rem;
+
+			&:hover {
+				color: $primary;
+			}
+
+			ul li {
+				display: inline-flex;
+				width: 40%;
+
+				&:last-child {
+					justify-content: flex-end;
+					width: 20%
+				}
+			}
+		}
+	}
+}

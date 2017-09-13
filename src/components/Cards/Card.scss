@@ -1,0 +1,27 @@
+@import './src/_colors';
+
+.Card {
+	background-color: $secondary;
+	border-radius: 1rem;
+	padding: 0.5rem;
+	text-align: center;
+	width: 300px;
+
+	h4 {
+		color: $tertiary;
+	}
+
+	.Buy-button {
+		background-color: $tertiary;
+    border: none;
+    border-radius: 0.25rem;
+		color: $white;
+		cursor: pointer;
+		font-size: 14px;
+    padding: 0.5rem 1rem;
+
+    &:hover {
+    	background-color: $primary;
+    }
+	}
+}
