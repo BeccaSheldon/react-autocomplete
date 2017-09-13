@@ -1,11 +1,13 @@
 @import './src/_colors';
 
 .Navigation {
+	margin-bottom: 6rem;
+
 	.Navigation-items {
 	  display: flex;
 	  flex-flow: row nowrap;
 	  font-family: 'Quicksand';
-	  justify-content: space-around;
+	  justify-content: space-between;
 		padding: 1.25rem 0.5rem;
 
 		ul li {
@@ -17,6 +19,10 @@
 			display: flex;
 			flex-flow: row wrap;
 			justify-content: space-around;
+		}
+
+		img {
+			width: 4rem;
 		}
 	}
 }
