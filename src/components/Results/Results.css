@@ -1,0 +1,20 @@
+.Results {
+  text-align: center; }
+  .Results .Result-list {
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Quicksand'; }
+    .Results .Result-list .Result-list-items {
+      color: #392392;
+      cursor: pointer;
+      padding: 0.5rem; }
+      .Results .Result-list .Result-list-items:hover {
+        color: #00EDBC; }
+      .Results .Result-list .Result-list-items ul li {
+        display: inline-flex;
+        width: 40%; }
+        .Results .Result-list .Result-list-items ul li:last-child {
+          justify-content: flex-end;
+          width: 20%; }

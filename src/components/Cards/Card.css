@@ -1,0 +1,18 @@
+.Card {
+  background-color: #D5D8FF;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  width: 300px; }
+  .Card h4 {
+    color: #392392; }
+  .Card .Buy-button {
+    background-color: #392392;
+    border: none;
+    border-radius: 0.25rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0.5rem 1rem; }
+    .Card .Buy-button:hover {
+      background-color: #00EDBC; }
