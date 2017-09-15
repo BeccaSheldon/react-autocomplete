@@ -40,9 +40,9 @@ This is a bootstrapped create-react-app focused on an autocomplete component tha
 ## Improvement List:
 - Highlight search query in the list of found results.
 - Add results count to the list of found results.
-- Add ability to view more possibilites in the list of found results. (just needs page number update in the api url)
+- Add ability to view more possibilites in the list of found results (just needs page number update in the api url + pagination UI).
 - Handle case when no results are found.
-- Cut down number of API calls by requiring three letters before query is considered valid or just waiting half a second for typing to stop. (or something other rule)
+- Cut down number of API calls by requiring three letters before query is considered valid or just waiting half a second for typing to stop (or some other rule).
 - Cache results on the client for some amount of time (would also cut down number of requests).
 - Add component transitions and fun interactions.
 - Improve copy to be more on-brand and more interesting.
