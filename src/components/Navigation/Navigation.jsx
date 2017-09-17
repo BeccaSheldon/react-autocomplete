@@ -17,7 +17,7 @@ export default class NavHeader extends Component {
 							className="pulse"
 							target="_blank"
 							text="Source Code"
-							url="https://github.com/ashwathnrajan/interview3"
+							url="https://github.com/BeccaSheldon/react-autocomplete.git"
 						></Link>
 					</li>
 				</ul>
