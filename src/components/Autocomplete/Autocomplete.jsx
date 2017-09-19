@@ -117,7 +117,10 @@ export default class Autocomplete extends Component {
 		return (
 			<Row rowClass="Autocomplete">
 	      <h3>Type in an item name to find possible results.</h3>
-				<Search changeHandler={this.setQuery.bind(this)} value={this.state.query} />
+				<Search
+					changeHandler={this.setQuery.bind(this)}
+					value={this.state.query}
+				/>
 				{this.state.loading && <BlockLoader />}
 				{!this.state.loading &&
 					<Results
