@@ -61,8 +61,8 @@ export default class Autocomplete extends Component {
 	  .then((data) => {
 			this.setState({
 				loading: false,
-				results: data.results,
-				resultsTotal: data.count
+				results: data,
+				resultsTotal: data.length
 			})
 	  })
 		.catch(err => new Error(console.log('Hit a snag reaching API endpoint! Error code: ' + err)))
